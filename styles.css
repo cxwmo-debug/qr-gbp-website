@@ -194,3 +194,24 @@ ul{list-style:none}
   .section{padding:56px 0}
   .cta h2{font-size:1.7rem}
                                                          }
+
+/* Free checklist: the form runs on the owner's Google Apps Script deployment. */
+#checklist{scroll-margin-top:85px}
+.checklist-section{background:radial-gradient(750px 450px at 90% 25%,rgba(212,175,55,.07),transparent 70%)}
+.checklist-layout{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:start}
+.checklist-copy h2{font-size:2rem;line-height:1.6;margin-bottom:18px}
+.checklist-copy>p{color:var(--muted);margin-bottom:18px}
+.checklist-copy .check-list{margin:24px 0}
+.checklist-return{border-right:3px solid var(--gold);padding:8px 18px;margin:26px 0}
+.checklist-return strong{color:var(--gold2)}
+.checklist-return p{color:#c3cde0;font-size:.92rem;margin-top:6px}
+.checklist-note{font-size:.8rem!important;line-height:1.9}
+.checklist-panel{background:#0a1736;border:1px solid var(--gold);border-radius:22px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.checklist-panel h3{text-align:center;color:var(--gold2);font-size:1.3rem;padding:24px 20px 0}
+.checklist-intro{text-align:center;color:#b8c4df;font-size:.85rem;padding:6px 18px 0}
+.checklist-frame{display:block;width:100%;height:760px;border:0;background:#0a1736}
+.checklist-fallback{color:#b8c4df;font-size:.8rem;text-align:center;padding:10px 15px 20px}
+.checklist-fallback a{color:var(--gold2);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1100px){.links{gap:15px;font-size:.85rem}}
+@media(max-width:900px){.checklist-layout{grid-template-columns:1fr;gap:30px}.checklist-copy h2{font-size:1.65rem}.checklist-frame{height:900px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
