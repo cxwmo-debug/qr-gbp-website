@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GBM | إدارة ملفات جوجل للأنشطة المحلية + نظام تقييمات QR</title>
+<meta name="description" content="نساعد المحلات والأنشطة المحلية تظهر على خرائط جوجل، وتجمع تقييمات حقيقية بنظام QR/NFC، ونتابع ملفها شهريًا.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== التنقل ===== -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#top">GBM<span>.</span></a>
+    <nav class="links" id="navLinks">
+      <a href="#services">الخدمات</a>
+      <a href="#qr-system">نظام التقييمات</a>
+      <a href="#segments">القطاعات</a>
+      <a href="#process">كيف نعمل</a>
+      <a href="#products">المنتجات الرقمية</a>
+      <a href="#contact" class="nav-cta">اطلب مراجعة مجانية</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="القائمة">☰</button>
+  </div>
+</header>
+
+<!-- ===== البطل ===== -->
+<section class="hero" id="top">
+  <div class="container">
+    <p class="eyebrow">للمحلات والأنشطة المحلية في مصر والخليج</p>
+    <h1>خلي عملاءك يلاقوك على جوجل…<br><span class="gold">ويتصلوا بيك</span></h1>
+    <p class="lead">بنظبط ملف نشاطك التجاري على Google، وبنركّب نظام تقييمات حقيقي بـ QR وNFC جوه مكانك، وبنتابع ملفك وردودك شهر بشهر — عشان اللي بيدور على خدمتك يلاقيك، يتصل، ويطلب.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-gold">اطلب مراجعة مجانية لملفك</a>
+      <a href="#services" class="btn btn-ghost">شوف الخدمات</a>
+    </div>
+    <div class="hero-points">
+      <div><strong>ملكيتك محفوظة</strong><span>الملف ملكك 100% — إحنا مديرين بس</span></div>
+      <div><strong>تقييمات حقيقية</strong><span>من غير حوافز ولا فلترة — بطريقة متوافقة مع سياسات Google</span></div>
+      <div><strong>تقرير شهري</strong><span>أرقام واضحة: تقييمات، ردود، وشكاوى متكررة</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== المشكلة ===== -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">المشكلة اللي بنحلها</h2>
+    <p class="section-sub">العميل اللي عايز يوصل ليك أو يطلب دليفري بيدور على الخريطة الأول. واللي مش موجود هناك… بيخسره.</p>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11a7 7 0 1114 0c0 4.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+        <h3>ملف غير موجود أو غلط</h3>
+        <p>محلات كتير ملهاش ملف على Google أصلًا، أو بياناتها غلط: ساعات، عنوان، تصنيف، أو لينكات بايظة.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6-5.4-2.9-5.4 2.9 1.1-6L3.2 9.4l6.1-.8z"/></svg></div>
+        <h3>تقييمات متراكمة من غير رد</h3>
+        <p>مفيش حد بيرد على المراجعات، ولا بيستفيد من الشكاوى المتكررة عشان يصلّح الخدمة.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg></div>
+        <h3>المنافس بيظهر قبلك</h3>
+        <p>اللي ملفه متظبط ونشيط بيطلع في أول نتائج البحث المحلي — والباقي بينزل تحت.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.7 2M9 2h6"/></svg></div>
+        <h3>مفيش وقت ولا خبرة</h3>
+        <p>صاحب المحل شغال في التشغيل اليومي — إدارة الحضور الرقمي محتاجة حد متفرغ ليها.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== الخدمات ===== -->
+<section class="section section-alt" id="services">
+  <div class="container">
+    <h2 class="section-title">الخدمات</h2>
+    <p class="section-sub">اللي بنبيعه مش "كود QR ولا أكونت جوجل" — دي حاجات مجانية. اللي بنبيعه هو النظام كامل: التأسيس الصح، وتجهيز رحلة التقييم، والمتابعة والتحليل.</p>
+    <div class="grid grid-3">
+      <div class="card service">
+        <span class="tag">مرة واحدة</span>
+        <h3>تأسيس / تصحيح الملف</h3>
+        <ul>
+          <li>مراجعة الملكية والبيانات والفئات</li>
+          <li>ضبط المواعيد والصور واللينكات</li>
+          <li>إنشاء ملف جديد أو استحواذ مصرّح بيه على ملف موجود</li>
+          <li>اختيار الفئات والكلمات المفتاحية المناسبة لنشاطك</li>
+        </ul>
+      </div>
+      <div class="card service featured">
+        <span class="tag tag-gold">الأكثر طلبًا</span>
+        <h3>تجهيز رحلة التقييم</h3>
+        <ul>
+          <li>رابط التقييم الرسمي من Google</li>
+          <li>تصميم QR + ستاند مطبوع للمكان</li>
+          <li>كارت NFC اختياري بلمسة واحدة</li>
+          <li>نصوص جاهزة للموظفين + تدريب مختصر</li>
+        </ul>
+      </div>
+      <div class="card service">
+        <span class="tag">اشتراك شهري</span>
+        <h3>إدارة ومتابعة شهرية</h3>
+        <ul>
+          <li>متابعة التقييمات والرد عليها</li>
+          <li>تحديث بيانات الملف أول بأول</li>
+          <li>تحليل الشكاوى المتكررة وتصعيدها</li>
+          <li>تقرير أداء شهري واضح</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note">التسعير بيتحدد بعد مراجعة ملفك ونطاق الشغل المطلوب — من غير التزام.</p>
+  </div>
+</section>
+
+<!-- ===== نظام QR/NFC ===== -->
+<section class="section" id="qr-system">
+  <div class="container split">
+    <div class="split-text">
+      <h2 class="section-title">نظام التقييمات بـ QR وNFC</h2>
+      <p>Google بيسمح بطلب تقييم حقيقي برابط أو كود QR — وإحنا بنحوّل ده لنظام كامل جوه مكانك:</p>
+      <ul class="check-list">
+        <li>ستاند أنيق على الكاشير أو الترابيزة: «رأيك يهمنا — شارك تجربتك الحقيقية»</li>
+        <li>كارت NFC بلاستيك: العميل يلمسه بموبايله فيفتح رابط التقييم فورًا</li>
+        <li>سكريبت للموظفين يطلب الرأي بشكل مهني واختياري تمامًا</li>
+        <li>قناة شكاوى خاصة منفصلة — من غير فلترة التقييمات على أساس الرضا</li>
+      </ul>
+      <div class="warn-box">
+        <strong>خط أحمر عندنا:</strong> ممنوع شراء تقييمات، ممنوع حوافز مقابل رأي، ممنوع «ادعمنا بخمس نجوم». أي مخالفة لسياسات Google ممكن تقفل ملفك — وإحنا بنحميك منها مش بنوقعك فيها.
+      </div>
+    </div>
+    <div class="split-visual">
+      <div class="qr-demo">
+        <div class="qr-frame">
+          <div class="qr-pattern" aria-hidden="true"></div>
+        </div>
+        <p class="qr-caption">امسح وقيّم في الوقت اللي يناسبك<br><span>المشاركة اختيارية</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== القطاعات ===== -->
+<section class="section section-alt" id="segments">
+  <div class="container">
+    <h2 class="section-title">مين بنخدم؟</h2>
+    <p class="section-sub">الأنشطة اللي عندها زيارات فعلية متكررة، والعملاء بيدوروا عليها محليًا، وهامش ربحها يسمح بالاستثمار في حضورها الرقمي.</p>
+    <div class="grid grid-3">
+      <div class="card seg"><div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13l1.6-5A2 2 0 017.5 6.5h9a2 2 0 011.9 1.5L20 13"/><rect x="3" y="13" width="18" height="5" rx="1.5"/><circle cx="7.5" cy="18.5" r="1.6"/><circle cx="16.5" cy="18.5" r="1.6"/></svg></div><h3>مراكز عناية السيارات والصالونات</h3><p>بحث محلي كثيف وقرار سريع — ملف متظبط معناه حجوزات أكتر.</p></div>
+      <div class="card seg"><div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v7a2 2 0 002 2v9M7 3v4M11 3v4M15 3c-1.7 1.5-2.5 4-2.5 6.5 0 2 1 3 2.5 3V21"/></svg></div><h3>المطاعم والمقاهي</h3><p>العميل بيدور «مطعم قريب مني» — والتقييمات بتفرق في الاختيار والدليفري.</p></div>
+      <div class="card seg"><div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C10.8 4 9 3.2 7.3 3.5 5 4 4 6.4 4.6 9c.5 2 1.4 3.2 1.7 5.2.3 1.9.5 6.3 2.3 6.3 1.9 0 1.3-4.1 3.4-4.1s1.5 4.1 3.4 4.1c1.8 0 2-4.4 2.3-6.3.3-2 1.2-3.2 1.7-5.2.6-2.6-.4-5-2.7-5.5-1.7-.3-3.5.5-4.7 2z"/></svg></div><h3>العيادات والمراكز الطبية</h3><p>ثقة المريض بتبدأ من الملف — مع ضوابط خصوصية دقيقة في الردود.</p></div>
+      <div class="card seg"><div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.6"/><path d="M12 3.5c1.5 1.7 1.5 4 0 5.5-1.5-1.5-1.5-3.8 0-5.5zM12 20.5c-1.5-1.7-1.5-4 0-5.5 1.5 1.5 1.5 3.8 0 5.5zM3.5 12c1.7-1.5 4-1.5 5.5 0-1.5 1.5-3.8 1.5-5.5 0zM20.5 12c-1.7 1.5-4 1.5-5.5 0 1.5-1.5 3.8-1.5 5.5 0z"/></svg></div><h3>محلات العطور والتجزئة</h3><p>هامش ربح عالي وفرع محلي محتاج يظهر صح على الخريطة.</p></div>
+      <div class="card seg"><div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l1.2-4.5A2 2 0 018 7h8a2 2 0 011.8 1.5L19 13M9 7V5h6v2"/><rect x="4" y="13" width="16" height="5" rx="1.5"/><circle cx="8" cy="18.5" r="1.5"/><circle cx="16" cy="18.5" r="1.5"/></svg></div><h3>النقل والتوصيل والليموزين</h3><p>الشغل كله مبني على الاتصال واللوكيشن — الملف هو واجهة الطلبات.</p></div>
+      <div class="card seg"><div class="icon"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M9 8V6a2 2 0 012-2h2a2 2 0 012 2v2M3 13h18"/></svg></div><h3>مساحات العمل المشتركة</h3><p>عرض المرافق والفعاليات وجذب أعضاء جدد من البحث المحلي.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== كيف نعمل ===== -->
+<section class="section" id="process">
+  <div class="container">
+    <h2 class="section-title">كيف نعمل؟ تجربة 30 يوم</h2>
+    <p class="section-sub">نبدأ بنطاق واضح ومحدود، ونقيس البداية والنهاية — من غير وعود فاضية.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <h3>مراجعة وتأسيس</h3>
+        <p>تفويض مكتوب، تسجيل الوضع الحالي، وتصحيح الملف بالكامل باعتمادك على كل تعديل.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <h3>تجهيز النظام</h3>
+        <p>رابط التقييم + تصميم QR والستاند + تدريب المسؤول داخل الفرع.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <h3>تشغيل ومتابعة</h3>
+        <p>ردود على التقييمات، متابعة أسبوعية، وتصعيد أي شكوى متكررة.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">4</span>
+        <h3>تقرير وقرار</h3>
+        <p>تقرير نهاية الشهر بالأرقام — وتقرر تكمل الاشتراك أو لا بناءً على نتيجة حقيقية.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== المنتجات الرقمية ===== -->
+<section class="section section-alt" id="products">
+  <div class="container">
+    <h2 class="section-title">منتجات رقمية مساندة</h2>
+    <p class="section-sub">لأصحاب الأنشطة اللي عايزين يبدأوا بأنفسهم.</p>
+    <div class="grid grid-2">
+      <div class="card product">
+        <h3 class="with-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4a2 2 0 012-2h12v18H7a2 2 0 00-2 2z"/><path d="M5 18V4M9 7h6M9 11h6"/></svg> حقيبة النمو المحلي</h3>
+        <p>دليل عملي كامل: تأسيس الملف ضد الحظر، الكلمات المفتاحية، تشيك ليست التأسيس، جدول المتابعة الأسبوعي والشهري، وسكريبتات جاهزة للرد على التقييمات — وبروتوكول استرجاع الحساب المعلّق.</p>
+      </div>
+      <div class="card product">
+        <h3 class="with-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 10h18M7 15h4"/></svg> الكارت الذكي QR/NFC</h3>
+        <p>بطاقة أعمال رقمية تفاعلية: زرار اتصال، واتساب، موقعك على الخريطة، وحفظ رقمك في موبايل العميل بضغطة واحدة — مع كارت NFC يلمسه أي موبايل فيفتح صفحتك فورًا.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== التزامنا ===== -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">التزامنا معاك</h2>
+    <div class="grid grid-3">
+      <div class="card promise"><h3>الملكية ليك</h3><p>ملف نشاطك مملوك ليك 100%. إحنا بنتضاف كمديرين فقط، ومن غير مشاركة كلمات مرور.</p></div>
+      <div class="card promise"><h3>شفافية كاملة</h3><p>ملف Google نفسه مجاني — أتعابنا مقابل الإعداد والإدارة والمخرجات المحددة، وده مكتوب في العقد.</p></div>
+      <div class="card promise"><h3>من غير وعود مضللة</h3><p>مش بنضمن عدد تقييمات ولا درجة ولا ترتيب على الخريطة — بنضمن الشغل المتفق عليه ونقيسه بالأرقام.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== تواصل ===== -->
+<section class="section cta" id="contact">
+  <div class="container">
+    <h2>جاهز تظهر على الخريطة؟</h2>
+    <p>اطلب مراجعة مجانية لملف نشاطك — هنبعتلك 3 ملاحظات حقيقية قابلة للتنفيذ، سواء اشتغلنا مع بعض أو لا.</p>
+    <a href="#" class="btn btn-gold btn-big" id="ctaBtn">اطلب المراجعة المجانية</a>
+    <p class="note">أو ابعتلنا اسم نشاطك ومنطقتك وهنراجع ملفك ونرد عليك.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span class="logo">GBM<span>.</span></span>
+    <p>إدارة ملفات Google للأنشطة المحلية + نظام تقييمات QR/NFC — مصر والخليج</p>
+    <p class="tiny">خدمة مستقلة لإدارة ملفات الأنشطة — لسنا تابعين لـ Google. ملف النشاط مملوك لصاحبه دائمًا.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+  </html>
